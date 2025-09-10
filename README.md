@@ -23,7 +23,7 @@ Este projeto é uma **atividade prática** do módulo **Grid Layout** do curso *
 ## 🛠 Tecnologias utilizadas
 
 - **HTML5** (estrutura semântica)  
-- **CSS3** (CSS Grid, Flexbox, Media Queries, variáveis CSS)  
+- **CSS3** (CSS Grid, Flexbox, variáveis CSS)  
 - **Google Fonts** (Archivo, Vollkorn)  
 - Abordagem **utility-first** para classes reutilizáveis
 
@@ -75,12 +75,12 @@ Este projeto é uma **atividade prática** do módulo **Grid Layout** do curso *
 
 1. Faça o clone do repositório:
 ```bash
-git clone https://github.com/seu-usuario/seu-repositorio.git
+git clone https://github.com/mdouracyfreire/portal-noticias.git
 ```
 
 2. Entre na pasta do projeto:
 ```bash
-cd seu-repositorio
+cd portal-noticias
 ```
 
 3. Abra `index.html` no navegador ou use uma extensão como **Live Server** (VS Code) para desenvolvimento com reload automático.
@@ -93,12 +93,6 @@ cd seu-repositorio
 - Reuso por meio de classes utilitárias (reduz duplicação).  
 - Uso de `:root` para centralizar tokens de design (cores, tipografia).  
 - Aplicação prática de CSS Grid para layouts complexos.  
-
----
-
-## ✨ Autor
-
-Projeto desenvolvido por **[Douracy Freire](https://github.com/mdouracyfreire)**
 
 ---
 
