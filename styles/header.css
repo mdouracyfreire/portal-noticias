@@ -1,25 +1,43 @@
-#primary{
+#primary {
   padding-block: 20px;
 
-  div{
+  div {
     display: flex;
     align-items: center;
     gap: 8px;
   }
 
   /* NESTING CSS */
-  div:nth-child(2){
+  div:nth-child(2) {
     margin-inline: auto;
   }
 
-  div:nth-child(3){
+  div:nth-child(3) {
     justify-self: end;
   }
 }
 
-#secondary{
+#secondary {
   padding-block: 14px;
   border: 1px solid var(--stroke-color);
   border-inline: none;
   justify-content: space-between;
+}
+
+@media (width < 35em) {
+  #primary strong {
+    display: none;
+  }
+
+  #secondary {
+    overflow-x: scroll;
+
+    & a {
+      width: max-content;
+    }
+
+    & a + a {
+      margin-left: 32px;
+    }
+  }
 }
